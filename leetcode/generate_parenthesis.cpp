@@ -1,4 +1,4 @@
-ass Solution {
+class Solution {
 public:
     void generateParenHelper(int left, int right, vector<string> &ans, string str) {
         //cout << "\nsee " << str;
