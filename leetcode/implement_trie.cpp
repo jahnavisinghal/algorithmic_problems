@@ -1,4 +1,4 @@
-ass TrieNode {
+class TrieNode {
 public:
     // Initialize your data structure here.
     TrieNode(char alphabet=' ') {
