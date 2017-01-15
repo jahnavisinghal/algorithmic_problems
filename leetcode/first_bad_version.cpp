@@ -1,7 +1,12 @@
+// Forward declaration of isBadVersion API.
+bool isBadVersion(int version);
 
-ol isBadVersion(int version);
-
-class S      }
+class Solution {
+public:
+    int firstBadVersion(int n) {
+        if(n < 2) {
+            return n; 
+        }
         int st = 1, en = n, mid;
         while(st <= en) {
             mid = st+(en-st)/2;
